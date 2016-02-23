@@ -2,6 +2,7 @@
   box-sizing: border-box; }
 
 body {
+  background-color: #F30;
   padding: 0 1rem;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -9,6 +10,10 @@ body {
   line-height: 1.5;
   color: #606c71;
   text-align: center;
+}
+
+#helloWorld{
+  //ID can only use once
 }
 
 .container {
@@ -19,8 +24,23 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   text-align: left;
-  background-color: #eee;
+  background-color: #3F0;
 }
+
+/*div section{
+  //you go into div and then into section
+  background-color: blue;
+}*/
+
+.container .page-header{
+  background-color: yellow;
+}
+
+ /* if you do 
+ .container .page-header{
+ background-color: yellow;
+}
+then it overides yellow and does blue */
 
 section {
     margin: 3em 0;
